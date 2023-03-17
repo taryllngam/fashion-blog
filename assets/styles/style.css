@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    display: flex;
+    gap: 30px;
+    width: auto;
+    height: 25px;
+    background-color: black;
+    padding: 15px 0 8px 20px;
+}
+
+.topbar a {
+    color: white;
+}
+
+.searchbar {
+    padding-left: 77%;
+}
+
+.head {
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+   
+}
+
+.head p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bold {
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+.jane {
+    background-image: url(/assets/images/jane.jpg);
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 240px;
+    gap: 30px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 50px;
+} 
+.jane p {
+    color: white;
+    font-size: 40px;
+}
+
+.butt a .buttt {
+    width: 180px;
+    height: 50px;
+    background-color: rgba(210, 210, 210, 0.849);   
+}
+
+.butt a .buttt:hover {
+  background-color: rgb(222, 219, 219);
+}
+
+.information {
+    background-color: silver;
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+   
+}
+
+.info {
+    padding: 20px 30px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.line {
+    text-align: center;
+}
+
+.info img {
+    width: 60vw;
+}
+
+.info p {
+   padding: 8px;
+}
+
+.color-silver {
+    color: gray;
+}
+
+.sideinfo {
+    background-image: url(/assets/images/fashion2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-color: black;
+    width: 100vw;
+}
+
+.sideinfo .side {
+    padding: 210px 0 0 10px;
+    color: white;
+    margin-bottom: 50px; 
+}
+
+.butons {
+    display: flex;
+    gap: 60%;
+    padding: 70px 0 ;
+}
+
+.but1 {
+    width: 140px;
+    height: 50px;
+    background-color: white; 
+}
+
+.but2 {
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.but2 .one {
+    background-color: white;
+    padding: 4px 6px;
+    color: black;
+}
+
+.but1:hover {
+    background-color:silver;
+}
+ .but2:hover {
+    background-color: silver;
+    color: black;
+ }
+
+ .disection {
+    border-bottom: 1px solid silver;
+    padding: 50px 0 ;
+    margin: 20px;
+ }
+
+ .jon {
+    padding: 40px 20px 40px;
+    display: flex;
+ }
+
+ .jon img {
+    width: 100px;
+ }
+
+.jon .balance {
+    display: grid;
+    padding: 20px 0 0 50px;
+}
+
+.jon .balance .date {
+    color: rgb(159, 158, 158);
+}
+
+.head {
+    padding: 20px 30px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.head img {
+    width: 60vw;
+}
+
+.head p {
+    padding: 8px;
+    text-align: left;
+}
+
+.runway {
+    padding: 20px 30px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.runway img {
+    width: 60vw;
+}
+
+.runway p {
+    padding: 8px;
+    text-align: left;
+}
+
+.popular {
+    background-color: black;
+    color: white; 
+    margin-top: 90px;
+   
+}
+
+.post {
+    text-align: left;
+    height: 60px;
+    
+}
+
+.denim {
+    display: flex;
+    padding: 20px 0 30px 20px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid silver;
+    gap: 20px;
+}
+
+.popular img {
+    width: 50px;
+    display: flex;
+}
