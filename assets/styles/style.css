@@ -42,7 +42,7 @@ h1 {
 }
 
 .jane {
-  background-image: url(/assets/images/jane.jpg);
+  background-image: url("/assets/images/jane.jpg");
   background-size: cover;
   height: 90vh;
   display: flex;
@@ -76,7 +76,7 @@ h2 {
   background-color: silver;
   display: flex;
   padding: 20px;
-  gap: 50px; 
+  gap: 50px;
 }
 
 .info {
@@ -106,7 +106,7 @@ h3 {
 }
 
 .sideinfo {
-  background-image: url(/assets/images/fashion2.jpg);
+  background-image: url("/assets/images/fashion2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 50vh;
@@ -335,7 +335,7 @@ h4 {
 
 .inspired img {
   width: 12vw;
-  padding: 6px 6px 0 12px; 
+  padding: 6px 6px 0 12px;
 }
 
 .socialize {
