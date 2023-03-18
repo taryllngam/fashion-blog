@@ -26,15 +26,13 @@
 }
 
 h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
-   
 }
 
 .head p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
- 
 }
 
 .bold {
@@ -57,7 +55,8 @@ h1 {
 h2 {
   color: aliceblue;
   font-size: 50px;
-} 
+}
+
 .jane p {
   color: white;
   font-size: 40px;
@@ -66,19 +65,18 @@ h2 {
 .butt a .buttt {
   width: 180px;
   height: 50px;
-  background-color: rgba(210, 210, 210, 0.849);   
+  background-color: #d2d2d2d8;   
 }
 
 .butt a .buttt:hover {
-  background-color: rgb(222, 219, 219);
+  background-color: #dedbdb;
 }
 
 .information {
   background-color: silver;
   display: flex;
   padding: 20px;
-  gap: 50px;
-   
+  gap: 50px; 
 }
 
 .info {
@@ -100,7 +98,7 @@ h3 {
 }
 
 .info p {
-   padding: 8px;
+  padding: 8px;
 }
 
 .color-silver {
@@ -119,19 +117,19 @@ h3 {
 .sideinfo .side {
   padding: 210px 0 0 10px;
   color: white;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .butons {
   display: flex;
   gap: 60%;
-  padding: 70px 0 ;
+  padding: 70px 0;
 }
 
 .but1 {
   width: 140px;
   height: 50px;
-  background-color: white; 
+  background-color: white;
 }
 
 .but2 {
@@ -150,25 +148,26 @@ h3 {
 .but1:hover {
   background-color:silver;
 }
- .but2:hover {
+
+.but2:hover {
   background-color: silver;
   color: black;
- }
+}
 
- .disection {
+.disection {
   border-bottom: 1px solid silver;
   padding: 50px 0 ;
   margin: 20px;
- }
+}
 
- .jon {
-  padding: 40px 20px 40px;
+.jon {
+  padding: 40px 20px;
   display: flex;
- }
+}
 
- .jon img {
+.jon img {
   width: 100px;
- }
+}
 
 .jon .balance {
   display: grid;
@@ -176,7 +175,7 @@ h3 {
 }
 
 .jon .balance .date {
-  color: rgb(159, 158, 158);
+  color: #9f9e9e;
 }
 
 .headd {
@@ -288,6 +287,14 @@ padding-top: 20px;
   font-size: 20px;
 }
 
+.postadd {
+  height: 10vh;
+  background-color: black;
+  color: white;
+  padding-left: 12px;
+  font-size: 20px;
+}
+
 .tag .postadd {
   height: 10vh;
   background-color: black;
@@ -322,22 +329,13 @@ padding-top: 20px;
   height: 48vh;
 }
 
-.postadd {
-  height: 10vh;
-  background-color: black;
-  color: white;
-  padding-left: 12px;
-  font-size: 20px;
-}
-
 .inspired {
   padding-top: 16px;
 }
 
 .inspired img {
   width: 12vw;
-  padding: 6px 6px 0 12px;
-      
+  padding: 6px 6px 0 12px;     
 }
 
 .socialize {
