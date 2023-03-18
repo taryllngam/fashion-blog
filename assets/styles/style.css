@@ -1,70 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .topbar {
-    display: flex;
-    gap: 30px;
-    width: auto;
-    height: 25px;
-    background-color: black;
-    padding: 15px 0 8px 20px;
+  display: flex;
+  gap: 30px;
+  width: auto;
+  height: 25px;
+  background-color: black;
+  padding: 15px 0 8px 20px;
 }
 
 .topbar a {
-    color: white;
+  color: white;
 }
 
 .searchbar {
-    padding-left: 77%;
+  padding-left: 77%;
 }
 
 .head {
-    text-align: center;
-    padding: 100px 0;
+  text-align: center;
+  padding: 100px 0;
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
    
 }
 
 .head p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+ 
 }
 
 .bold {
-    background-color: black;
-    color: white;
-    padding: 2px;
+  background-color: black;
+  color: white;
+  padding: 2px;
 }
 
 .jane {
-    background-image: url(/assets/images/jane.jpg);
-    background-size: cover;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-    padding-top: 240px;
-    gap: 30px;
+  background-image: url(/assets/images/jane.jpg);
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 240px;
+  gap: 30px;
 }
 
 h2 {
-    color: aliceblue;
-    font-size: 50px;
+  color: aliceblue;
+  font-size: 50px;
 } 
 .jane p {
-    color: white;
-    font-size: 40px;
+  color: white;
+  font-size: 40px;
 }
 
 .butt a .buttt {
-    width: 180px;
-    height: 50px;
-    background-color: rgba(210, 210, 210, 0.849);   
+  width: 180px;
+  height: 50px;
+  background-color: rgba(210, 210, 210, 0.849);   
 }
 
 .butt a .buttt:hover {
@@ -72,29 +74,29 @@ h2 {
 }
 
 .information {
-    background-color: silver;
-    display: flex;
-    padding: 20px;
-    gap: 50px;
+  background-color: silver;
+  display: flex;
+  padding: 20px;
+  gap: 50px;
    
 }
 
 .info {
-    padding: 20px 30px;
-    background-color: white;
-    margin-bottom: 30px;
+  padding: 20px 30px;
+  background-color: white;
+  margin-bottom: 30px;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .line {
-    text-align: center;
+  text-align: center;
 }
 
 .info img {
-    width: 60vw;
+  width: 60vw;
 }
 
 .info p {
@@ -102,135 +104,331 @@ h3 {
 }
 
 .color-silver {
-    color: gray;
+  color: gray;
 }
 
 .sideinfo {
-    background-image: url(/assets/images/fashion2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 50vh;
-    background-color: black;
-    width: 100vw;
+  background-image: url(/assets/images/fashion2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-color: black;
+  width: 100vw;
 }
 
 .sideinfo .side {
-    padding: 210px 0 0 10px;
-    color: white;
-    margin-bottom: 50px; 
+  padding: 210px 0 0 10px;
+  color: white;
+  margin-bottom: 50px; 
 }
 
 .butons {
-    display: flex;
-    gap: 60%;
-    padding: 70px 0 ;
+  display: flex;
+  gap: 60%;
+  padding: 70px 0 ;
 }
 
 .but1 {
-    width: 140px;
-    height: 50px;
-    background-color: white; 
+  width: 140px;
+  height: 50px;
+  background-color: white; 
 }
 
 .but2 {
-    width: 140px;
-    height: 50px;
-    background-color: black;
-    color: white;
+  width: 140px;
+  height: 50px;
+  background-color: black;
+  color: white;
 }
 
 .but2 .one {
-    background-color: white;
-    padding: 4px 6px;
-    color: black;
+  background-color: white;
+  padding: 4px 6px;
+  color: black;
 }
 
 .but1:hover {
-    background-color:silver;
+  background-color:silver;
 }
  .but2:hover {
-    background-color: silver;
-    color: black;
+  background-color: silver;
+  color: black;
  }
 
  .disection {
-    border-bottom: 1px solid silver;
-    padding: 50px 0 ;
-    margin: 20px;
+  border-bottom: 1px solid silver;
+  padding: 50px 0 ;
+  margin: 20px;
  }
 
  .jon {
-    padding: 40px 20px 40px;
-    display: flex;
+  padding: 40px 20px 40px;
+  display: flex;
  }
 
  .jon img {
-    width: 100px;
+  width: 100px;
  }
 
 .jon .balance {
-    display: grid;
-    padding: 20px 0 0 50px;
+  display: grid;
+  padding: 20px 0 0 50px;
 }
 
 .jon .balance .date {
-    color: rgb(159, 158, 158);
+  color: rgb(159, 158, 158);
 }
 
-.head {
-    padding: 20px 30px;
-    background-color: white;
-    margin-bottom: 30px;
+.headd {
+  padding: 20px 30px;
+  background-color: white;
+  margin-bottom: 30px;
 }
 
-.head img {
-    width: 60vw;
+.headd img {
+  width: 60vw;
 }
 
-.head p {
-    padding: 8px;
-    text-align: left;
+.headd p {
+  padding: 8px;
+  text-align: center;
 }
 
+.headd .left {
+  text-align: left;
+}
 .runway {
-    padding: 20px 30px;
-    background-color: white;
-    margin-bottom: 30px;
+  padding: 20px 30px;
+  background-color: white;
+  margin-bottom: 30px;
 }
 
 .runway img {
-    width: 60vw;
+  width: 60vw;
 }
 
 .runway p {
-    padding: 8px;
-    text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+.runway .left {
+  text-align: left;
 }
 
 .popular {
-    background-color: black;
-    color: white; 
-    margin-top: 90px;
-   
+  background-color: black;
+  color: white; 
+  margin-top: 90px;
 }
 
 .post {
-    text-align: left;
-    height: 60px;
-    
+  height: 60px;
+  padding-left: 12px;
+}
+
+h4 {
+text-align: left;
+padding-top: 20px;
 }
 
 .denim {
-    display: flex;
-    padding: 20px 0 30px 20px;
-    align-items: center;
-    background-color: white;
-    color: black;
-    border-bottom: 1px solid silver;
-    gap: 20px;
+  display: flex;
+  padding: 20px 0 30px 20px;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid silver;
+  gap: 20px;
 }
 
 .popular img {
-    width: 50px;
-    display: flex;
+  width: 50px;
+  display: flex;
+}
+
+.arrangements {
+  display: grid;
+  gap: 5px;
+}
+
+.denim:hover {
+  background-color: silver;
+}
+
+.advert {
+  background-color: white;
+  height: 53vh;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.advert .postad {
+  background-color: black;
+  color: white;
+  height: 9vh;
+  padding-left: 12px;
+}
+
+.advert p {
+  text-align: center;
+  padding-top: 125px;
+  margin: 30px;
+  background-color: #ecececdb;
+  height: 17vh;
+}
+
+.tag {
+  height: 34vh;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.tag h4 {
+  font-size: 20px;
+}
+
+.tag .postadd {
+  height: 10vh;
+  background-color: black;
+  color: white;
+  padding-left: 12px;
+}
+
+.tag .postadd .blogs {
+  padding-top: 50px;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding-left: 10px;
+}
+
+.black-color {
+  background-color: black;
+  color: white;
+  padding: 4px 6px;
+}
+
+.gray-color {
+  background-color: #ecececdb;
+  padding: 4px 6px;
+
+}
+
+.inspi {
+  margin-top: 20px;
+  background-color: white;
+  height: 48vh;
+}
+
+.postadd {
+  height: 10vh;
+  background-color: black;
+  color: white;
+  padding-left: 12px;
+  font-size: 20px;
+}
+
+.inspired {
+  padding-top: 16px;
+}
+
+.inspired img {
+  width: 12vw;
+  padding: 6px 6px 0 12px;
+      
+}
+
+.socialize {
+  margin-top: 40px;
+  height: 20vh;
+  background-color: white;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.socials a {
+  color: black;
+  size: 90px;
+}
+
+.ref {
+  margin-top: 20px;
+  height: 40vh;
+  background-color: white;
+  display: grid;
+  font-size: 20px;
+}
+
+.ref p {
+  padding-left: 8px;
+  font-size: 17px;
+}
+
+#email {
+  width: 24vw;
+  height: 6vh;
+  padding-left: 10px;
+}
+
+.mail {
+  padding-left: 15px;
+}
+
+.subs {
+  width: 25vw;
+  height: 7vh;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+}
+
+.ref a {
+  padding-left: 15px;
+}
+
+.ref .subs:hover {
+  background-color: #ecececdb;
+  color: black;
+}
+
+.footer {
+  height: 25vh;
+  background-color: gray;
+}
+
+#foot {
+  padding: 40px 0 0 30px;
+}
+
+.faffa {
+  width: 12vw;
+  height: 7vh;
+  display: flex;
+  gap: 14px;
+  padding: 15px 0 0 27px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+
+.faffa:hover {
+  background-color: silver;
+  color: black;
+}
+
+.w3 {
+  padding-top: 30px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.w3 a {
+  color: white;
 }
