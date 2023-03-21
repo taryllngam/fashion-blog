@@ -487,6 +487,7 @@ h4 {
     width: 140px;
     height: 40px;
   }
+
   .information {
     display: flex;
     flex-direction: column;
@@ -572,7 +573,7 @@ h4 {
 
   .postadd {
     height: 6vh;
-    background-color: black; 
+    background-color: black;
   }
 
   .advert {
