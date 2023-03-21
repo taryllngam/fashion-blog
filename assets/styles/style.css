@@ -129,7 +129,6 @@ h3 {
 .butons {
   display: flex;
   gap: 60%;
-  /* padding: 70px 0; */
 }
 
 .but1 {
@@ -436,7 +435,7 @@ h4 {
 }
 
 .w3 {
-  padding: 15px 0 15px ;
+  padding: 15px 0;
   font-size: 20px;
   color: white;
   text-decoration: none;
@@ -447,9 +446,9 @@ h4 {
 }
 
 @media screen and (max-width: 600px) {
-.maininfo {
-  overflow: none;
-}
+  .maininfo {
+    overflow: none;
+  }
 
   .topbar {
     display: none;
@@ -485,11 +484,10 @@ h4 {
     font-size: 30px;
   }
 
-
   .butt a .buttt {
     width: 140px;
     height: 40px;
-}
+  }
   .information {
     display: flex;
     flex-direction: column;
@@ -567,9 +565,9 @@ h4 {
     display: wrap;
   }
   .inspi {
-  margin-top: 20px;
-  background-color: white;
-  height: 75%;
+    margin-top: 20px;
+    background-color: white;
+    height: 75%;
 }
 
   .postadd {
@@ -616,7 +614,6 @@ h4 {
     background-color: white;
   }
 
-
   .ref {
     margin-top: 20px;
     height: 27vh;
@@ -624,7 +621,6 @@ h4 {
     display: grid;
     font-size: 20px;
   }
-  
 
   #email {
     width: 90%;
@@ -640,6 +636,4 @@ h4 {
   .footer {
     
   }
-  
-
 }
