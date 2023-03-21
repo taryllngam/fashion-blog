@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  height: fit-content;
 }
 
 .topbar {
@@ -125,7 +129,7 @@ h3 {
 .butons {
   display: flex;
   gap: 60%;
-  padding: 70px 0;
+  /* padding: 70px 0; */
 }
 
 .but1 {
@@ -265,7 +269,7 @@ h4 {
 
 .advert {
   background-color: white;
-  height: 53vh;
+  height: 40vh;
   margin-top: 25px;
   font-size: 20px;
 }
@@ -273,16 +277,16 @@ h4 {
 .advert .postad {
   background-color: black;
   color: white;
-  height: 9vh;
+  height: 50px;
   padding-left: 12px;
 }
 
 .advert p {
   text-align: center;
-  padding-top: 125px;
-  margin: 30px;
+  padding-top: 20px;
+  margin: 20px;
   background-color: #ecececdb;
-  height: 17vh;
+  height: 65px;
 }
 
 .tag {
@@ -334,7 +338,7 @@ h4 {
 .inspi {
   margin-top: 20px;
   background-color: white;
-  height: 48vh;
+  height: 46vh;
 }
 
 .inspired {
@@ -427,6 +431,11 @@ h4 {
   background-color: gray;
 }
 
+.footer button {
+  text-decoration: none;
+  te
+}
+
 .w3 {
   padding: 15px 0 15px ;
   font-size: 20px;
@@ -438,6 +447,200 @@ h4 {
   color: white;
 }
 
-@media screen and () {
+@media screen and (max-width: 600px) {
+.maininfo {
+  overflow: none;
+}
+
+  .topbar {
+    display: none;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .jane {
+    background-image: url("/assets/images/jane.jpg");
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    gap: 20px;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .jane p {
+    font-size: 30px;
+  }
+
+
+  .butt a .buttt {
+    width: 140px;
+    height: 40px;
+}
+  .information {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    margin: 20px;
+    background-color: silver;
+  }
+
+  .info img {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .butons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40%;
+    padding: 20;
+    overflow: none;
+  }
+
+  .but2 {
+    width: 140px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    padding: 13px;
+    overflow: none;
+  }
+
+  .disection {
+    padding: 20px 0;
+  }
   
+  .jon {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .jon img {
+    width: 100px;
+  }
+
+  .jon .balance {
+    padding: 20px 0;
+  }
+
+  .headd img {
+    width: 100%;
+  }
+
+  .runway img {
+    width: 100%;
+  }
+
+  .sideinfo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: 98%;
+  }
+
+  .sideinfo .side {
+    padding: 270px 0 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .inspired img {
+    width: 40%;
+    padding: 6px 6px 0 25px;
+    display: wrap;
+  }
+  .inspi {
+  margin-top: 20px;
+  background-color: white;
+  height: 75%;
+}
+
+  .postadd {
+    height: 6vh;
+    background-color: black;
+   
+  }
+
+  .advert {
+    background-color: white;
+    height: 33vh;
+
+  }
+  
+  .advert .postad {
+    color: white;
+    height: 7vh;
+  }
+  
+  .advert p {
+    text-align: center;
+    padding-top: 125px;
+    margin: 30px;
+    background-color: white;
+    height: 10vh;
+  }
+
+  .tag {
+    height: 20vh;
+    background-color: white;
+    margin-top: 10px;
+  }
+
+  .tag .postadd {
+    height: 6vh;
+    background-color: black;
+    color: white;
+    padding-left: 12px;
+  }
+
+  .socialize {
+    margin-top: 40px;
+    height: 10vh;
+    background-color: white;
+  }
+
+
+  .ref {
+    margin-top: 20px;
+    height: 27vh;
+    background-color: white;
+    display: grid;
+    font-size: 20px;
+  }
+  
+
+  #email {
+    width: 90%;
+    height: 6vh;
+    padding-left: 10px;
+  }
+
+  .subs {
+    width: 93%;
+    font-size: 16px;
+  }
+
+  .footer {
+    
+  }
+  
+
 }
