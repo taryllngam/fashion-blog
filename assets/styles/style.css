@@ -47,7 +47,7 @@ h1 {
 }
 
 .jane {
-  background-image: url("/assets/images/jane.jpg");
+  background-image: url("./assets/images/jane.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
@@ -112,7 +112,7 @@ h3 {
 }
 
 .sideinfo {
-  background-image: url("/assets/images/fashion2.jpg");
+  background-image: url("./assets/images/fashion2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 50vh;
@@ -466,7 +466,7 @@ h4 {
   }
 
   .jane {
-    background-image: url("/assets/images/jane.jpg");
+    background-image: url("./assets/images/jane.jpg");
     background-size: cover;
     height: 30vh;
     display: flex;
