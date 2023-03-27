@@ -47,7 +47,7 @@ h1 {
 }
 
 .jane {
-  background-image: url("./assets/images/jane.jpg");
+  background-image: url("../images/jane.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
@@ -111,19 +111,14 @@ h3 {
   color: gray;
 }
 
-.sideinfo {
-  background-image: url("./assets/images/fashion2.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 50vh;
-  background-color: black;
-  width: 100vw;
+.sideinfo img {
+  width: 99%;
+  height: 8%;
 }
 
 .sideinfo .side {
-  padding: 210px 0 0 10px;
+  background-color: black;
   color: white;
-  margin-bottom: 50px;
 }
 
 .butons {
@@ -285,7 +280,7 @@ h4 {
   padding-top: 20px;
   margin: 20px;
   background-color: #ecececdb;
-  height: 65px;
+  height: 24vh;
 }
 
 .tag {
@@ -466,7 +461,7 @@ h4 {
   }
 
   .jane {
-    background-image: url("./assets/images/jane.jpg");
+    background-image: url("../images/jane.jpg");
     background-size: cover;
     height: 30vh;
     display: flex;
@@ -550,18 +545,18 @@ h4 {
   .sideinfo {
     background-size: contain;
     background-repeat: no-repeat;
-    height: fit-content;
     width: 98%;
   }
 
-  .sideinfo .side {
-    padding: 270px 0 0 10px;
-    margin-bottom: 20px;
+  .popular {
+    background-color: rgb(166, 16, 16);
+    color: white;
+    height: fit-content;
   }
 
   .inspired img {
-    width: 40%;
-    padding: 6px 6px 0 25px;
+    width: 30%;
+    padding: auto;
     display: wrap;
   }
 
@@ -579,6 +574,7 @@ h4 {
   .advert {
     background-color: white;
     height: 33vh;
+    margin-bottom: 50px;
   }
 
   .advert .postad {
