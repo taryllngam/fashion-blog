@@ -224,7 +224,7 @@ h3 {
 .popular {
   background-color: black;
   color: white;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .post {
@@ -263,7 +263,7 @@ h4 {
 
 .advert {
   background-color: white;
-  height: 40vh;
+  height: 13%;
   margin-top: 25px;
   font-size: 20px;
 }
@@ -271,22 +271,25 @@ h4 {
 .advert .postad {
   background-color: black;
   color: white;
-  height: 50px;
+  height: 60px;
   padding-left: 12px;
 }
 
 .advert p {
   text-align: center;
-  padding-top: 20px;
-  margin: 20px;
+  padding-top: 25%;
+}
+
+.advert .add {
+  height: 60%;
   background-color: #ecececdb;
-  height: 24vh;
+  margin: 8%;
 }
 
 .tag {
-  height: 34vh;
+  height: 8%;
   background-color: white;
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 .tag h4 {
@@ -332,7 +335,7 @@ h4 {
 .inspi {
   margin-top: 20px;
   background-color: white;
-  height: 46vh;
+  height: 13%;
 }
 
 .inspired {
@@ -340,30 +343,31 @@ h4 {
 }
 
 .inspired img {
-  width: 12vw;
-  padding: 6px 6px 0 12px;
+  width: 45%;
+  margin-left: 3%;
 }
 
 .socialize {
   margin-top: 40px;
-  height: 20vh;
+  height: 5%;
   background-color: white;
 }
 
 .socials {
   display: flex;
   gap: 10px;
-  padding: 20px;
+  padding: 3%;
 }
 
 .socials a {
   color: black;
   size: 90px;
+  font-size: 25px;
 }
 
 .ref {
   margin-top: 20px;
-  height: 40vh;
+  height: 12%;
   background-color: white;
   display: grid;
   font-size: 20px;
@@ -375,8 +379,8 @@ h4 {
 }
 
 #email {
-  width: 24vw;
-  height: 6vh;
+  width: 88%;
+  height: 55%;
   padding-left: 10px;
 }
 
@@ -385,9 +389,10 @@ h4 {
 }
 
 .subs {
-  width: 25vw;
-  height: 7vh;
+  width: 92%;
+  height: 65%;
   background-color: red;
+  border-color: red;
   color: white;
   font-size: 16px;
 }
@@ -399,18 +404,24 @@ h4 {
 .ref .subs:hover {
   background-color: #ecececdb;
   color: black;
+  border-color: #ecececdb;
 }
 
 #foot {
-  padding: 40px 0 0 30px;
+  justify-content: center;
+  padding: 4% 0 4% 4%;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .faffa {
-  width: 12vw;
+  width: 12%;
   height: 7vh;
   display: flex;
-  gap: 14px;
-  padding: 15px 0 0 27px;
+  gap: 2%;
+  padding: 15px 0 0 2%;
   font-size: 15px;
   background-color: black;
   color: white;
@@ -423,6 +434,8 @@ h4 {
 
 .footer {
   background-color: gray;
+  width: 100%;
+  height: 25vh;
 }
 
 .footer button {
@@ -549,15 +562,16 @@ h4 {
   }
 
   .popular {
-    background-color: rgb(166, 16, 16);
+    background-color: black;
     color: white;
     height: fit-content;
   }
 
   .inspired img {
-    width: 30%;
+    width: 45%;
     padding: auto;
     display: wrap;
+    margin: 1%;
   }
 
   .inspi {
@@ -584,14 +598,11 @@ h4 {
 
   .advert p {
     text-align: center;
-    padding-top: 125px;
     margin: 30px;
-    background-color: white;
-    height: 10vh;
   }
 
   .tag {
-    height: 20vh;
+    height: 25vh;
     background-color: white;
     margin-top: 10px;
   }
@@ -603,28 +614,72 @@ h4 {
     padding-left: 12px;
   }
 
+  .tag .postadd .blogs {
+    padding-top: 10px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: auto;
+    padding-left: 0px;
+    font-size: 40%;
+  }
+
   .socialize {
     margin-top: 40px;
-    height: 10vh;
     background-color: white;
+  }
+
+  .socials a {
+    color: black;
+    size: 90px;
+    font-size: 18px;
   }
 
   .ref {
     margin-top: 20px;
-    height: 27vh;
     background-color: white;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
+    height: 60%;
   }
 
   #email {
-    width: 90%;
-    height: 6vh;
+    width: 88%;
+    height: 5%;
     padding-left: 10px;
+    padding-bottom: 15px;
+  }
+  
+  .mail {
+    padding-left: 15px;
+    height: 95%;
   }
 
   .subs {
-    width: 93%;
+    width: 90%;
+    height: 5%;
+    background-color: red;
+    border-color: red;
+    color: white;
     font-size: 16px;
+    padding-top: 12px;
+  }
+
+  .footer {
+    background-color: gray;
+    width: 100%;
+    height: 25vh;
+  }
+
+  .faffa {
+    width: 24%;
+    height: 7vh;
+    display: flex;
+    font-size: 15px;
+  }
+
+  .fafa {
+    flex: none;
   }
 }
