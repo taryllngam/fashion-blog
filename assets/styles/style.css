@@ -615,7 +615,7 @@ h4 {
   }
 
   .tag .postadd .blogs {
-    padding-top: 10px;
+    padding-top: 20px;
     color: black;
     display: flex;
     flex-wrap: wrap;
@@ -641,14 +641,14 @@ h4 {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    height: 60%;
+    height: 20vh;
   }
 
   #email {
     width: 88%;
-    height: 5%;
+    height: 4vh;
     padding-left: 10px;
-    padding-bottom: 15px;
+    margin: 2% 0;
   }
 
   .mail {
@@ -657,13 +657,13 @@ h4 {
   }
 
   .subs {
-    width: 90%;
-    height: 5%;
+    width: 93%;
+    height: 4vh;
     background-color: red;
     border-color: red;
     color: white;
     font-size: 16px;
-    padding-top: 12px;
+    margin-bottom: 2%;
   }
 
   .footer {
@@ -676,6 +676,7 @@ h4 {
     width: 24%;
     height: 7vh;
     display: flex;
+    gap: 8%;
     font-size: 15px;
   }
 
