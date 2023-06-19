@@ -3,15 +3,22 @@
   padding: 0;
 }
 
+.main-info {
+  overflow: none;
+  width: 100vw;
+  height: 100vh;
+}
+
 main {
   width: 100vw;
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .topbar {
   display: flex;
   justify-content: space-evenly; 
-  width: 104vw;
+  width: 102vw;
   height: 25px;
   background-color: black;
   padding: 15px 0 8px 20px;
@@ -240,7 +247,7 @@ h3 {
 
 h4 {
   text-align: left;
-  padding-top: 20px;
+  padding: 3% 2%;
 }
 
 .denim {
@@ -277,7 +284,7 @@ h4 {
 .advert .postad {
   background-color: black;
   color: white;
-  height: 60px;
+  height: 3.5rem;
   padding-left: 12px;
 }
 
@@ -303,7 +310,7 @@ h4 {
 }
 
 .postadd {
-  height: 10vh;
+  height: 3.5rem;
   background-color: black;
   color: white;
   padding-left: 12px;
@@ -311,7 +318,7 @@ h4 {
 }
 
 .tag .postadd {
-  height: 6vh;
+  height: 2.8rem;
   background-color: black;
   color: white;
   padding: 10px;
@@ -345,12 +352,11 @@ h4 {
 }
 
 .inspired {
-  padding-top: 16px;
+  padding: 2rem;
 }
 
 .inspired img {
-  width: 45%;
-  margin-left: 3%;
+  width: 49%;
 }
 
 .socialize {
@@ -361,7 +367,7 @@ h4 {
 
 .socials {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   padding: 3%;
 }
 
@@ -380,7 +386,8 @@ h4 {
 }
 
 .ref p {
-  padding-left: 8px;
+  margin: none;
+  padding: 11px;
   font-size: 17px;
 }
 
@@ -436,7 +443,7 @@ h4 {
 
 .footer {
   background-color: gray;
-  width: inherit;
+  width: 100%;
 }
 
 .footer button {
@@ -477,11 +484,12 @@ h4 {
   .jane {
     background-image: url("../images/jane.jpg");
     background-size: cover;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
-    gap: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    gap: 2rem;
   }
 
   h2 {
@@ -513,6 +521,7 @@ h4 {
 
   .butons {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space- evenly;
     width: 100%;
@@ -575,10 +584,9 @@ h4 {
   }
 
   .inspired img {
-    width: 45%;
-    padding: auto;
+    width: 43%;
     display: wrap;
-    margin: 1%;
+    padding: 5% 1%;
   }
 
   .inspi {
@@ -615,7 +623,6 @@ h4 {
   }
 
   .tag .postadd {
-    height: 6vh;
     background-color: black;
     color: white;
     padding-left: 12px;
@@ -665,16 +672,12 @@ h4 {
 
   .subs {
     width: 93%;
-    height: 1.5rem;
+    height: 1.7rem;
     background-color: red;
     border-color: red;
     color: white;
     font-size: 16px;
     margin-bottom: 2%;
-  }
-
-  .footer {
-   display: none;
   }
 
   .faffa {
@@ -687,5 +690,10 @@ h4 {
 
   .fafa {
     flex: none;
+  }
+
+  .footer {
+    background-color: gray;
+    width: 109%;
   }
 }
