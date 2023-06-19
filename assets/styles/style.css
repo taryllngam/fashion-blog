@@ -4,14 +4,14 @@
 }
 
 main {
-  position: relative;
-  height: fit-content;
+  width: 100vw;
+  height: 100vh;
 }
 
 .topbar {
   display: flex;
-  gap: 30px;
-  width: auto;
+  justify-content: space-evenly; 
+  width: 104vw;
   height: 25px;
   background-color: black;
   padding: 15px 0 8px 20px;
@@ -60,6 +60,7 @@ h1 {
   padding-left: 50px;
   padding-top: 240px;
   gap: 30px;
+  width: 100%;
 }
 
 h2 {
@@ -87,6 +88,7 @@ h2 {
   display: flex;
   padding: 20px;
   gap: 50px;
+  width: 100%;
 }
 
 .info {
@@ -127,7 +129,7 @@ h3 {
 
 .butons {
   display: flex;
-  gap: 60%;
+ justify-content: space-between;
 }
 
 .but1 {
@@ -291,7 +293,7 @@ h4 {
 }
 
 .tag {
-  height: 8%;
+  height: 20rem;
   background-color: white;
   margin-top: 5%;
 }
@@ -309,14 +311,14 @@ h4 {
 }
 
 .tag .postadd {
-  height: 10vh;
+  height: 6vh;
   background-color: black;
   color: white;
-  padding-left: 12px;
+  padding: 10px;
 }
 
 .tag .postadd .blogs {
-  padding-top: 50px;
+  padding-top: 25px;
   color: black;
   display: flex;
   flex-wrap: wrap;
@@ -413,7 +415,7 @@ h4 {
 
 #foot {
   justify-content: center;
-  padding: 4% 0 4% 4%;
+  padding: 4% 0 0 4%;
 }
 
 .faffa {
@@ -434,8 +436,7 @@ h4 {
 
 .footer {
   background-color: gray;
-  width: 100%;
-  height: 25vh;
+  width: inherit;
 }
 
 .footer button {
@@ -512,22 +513,28 @@ h4 {
 
   .butons {
     display: flex;
-    flex-wrap: wrap;
-    gap: 40%;
+    flex-direction: row;
+    justify-content: space- evenly;
+    width: 100%;
     padding: 20;
     overflow: none;
   }
 
   .but2 {
-    width: 140px;
-    height: 50px;
+    width: 8rem;
+    height: 2.6rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 15px;
+    font-size: 13px;
     padding: 13px;
     overflow: none;
   }
+
+.but1 {
+  width: 8rem;
+  height: 2.6rem;
+}
 
   .disection {
     padding: 20px 0;
@@ -602,7 +609,7 @@ h4 {
   }
 
   .tag {
-    height: 25vh;
+    height: 15rem;
     background-color: white;
     margin-top: 10px;
   }
@@ -621,7 +628,7 @@ h4 {
     flex-wrap: wrap;
     gap: auto;
     padding-left: 0;
-    font-size: 40%;
+    font-size: 0.8rem;
   }
 
   .socialize {
@@ -641,7 +648,7 @@ h4 {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    height: 20vh;
+    height: fit-content;
   }
 
   #email {
@@ -658,7 +665,7 @@ h4 {
 
   .subs {
     width: 93%;
-    height: 4vh;
+    height: 1.5rem;
     background-color: red;
     border-color: red;
     color: white;
@@ -667,9 +674,7 @@ h4 {
   }
 
   .footer {
-    background-color: gray;
-    width: 100%;
-    height: 25vh;
+   display: none;
   }
 
   .faffa {
