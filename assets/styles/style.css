@@ -12,7 +12,7 @@
 main {
   width: 100vw;
   height: 100vh;
-  font-family: "Karma", serif;
+  font-family: Karma, serif;
 }
 
 .topbar {
@@ -522,7 +522,7 @@ h4 {
   .butons {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: row;
     justify-content: space- evenly;
     width: 100%;
     padding: 20;
