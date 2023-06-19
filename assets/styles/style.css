@@ -521,8 +521,7 @@ h4 {
 
   .butons {
     display: flex;
-    flex-wrap: wrap;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space- evenly;
     width: 100%;
     padding: 20;
